@@ -1,0 +1,57 @@
+
+body {
+    background-color: orange;
+    color: papayawhip
+}
+
+ul {
+    color: black;
+    list-style-position: inside;
+}
+
+p {
+    color: black;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.lefttxt {
+    text-align: justify;
+}
+
+.middletxt {
+    text-align: center;
+}
+
+.righttxt {
+    text-align: justify;
+}
+
+.column {
+    float:left;
+    padding 30px;
+}
+
+.column.side {
+    width:25%;
+}
+
+.column.middle {
+    width:50%;
+}
+
+.row: after {
+    content:""
+    display:table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%
+    }
+}
+    
+
