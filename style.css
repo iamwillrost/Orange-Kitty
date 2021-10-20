@@ -1,16 +1,19 @@
 
-body {
+.firstblock {
     background-color: orange;
-    color: papayawhip
+}
+
+.secondblock {
+    background-color:black;
 }
 
 ul {
-    color: black;
+    color: papayawhip;
     list-style-position: inside;
 }
 
 p {
-    color: black;
+    color: papayawhip;
 }
 
 .buttons {
@@ -19,14 +22,17 @@ p {
 
 .lefttxt {
     text-align: justify;
+    color: papayawhip;
 }
 
 .middletxt {
     text-align: center;
+    color: papayawhip;
 }
 
 .righttxt {
     text-align: justify;
+    color: papayawhip;
 }
 
 .column {
@@ -42,16 +48,17 @@ p {
     width:50%;
 }
 
-.row: after {
+.row::after {
     content:""
-    display:table;
+    display: table;
     clear: both;
+    background-color: black;
 }
 
 @media screen and (max-width: 600px) {
     .column.side, .column.middle {
         width: 100%
+        
     }
 }
     
-
